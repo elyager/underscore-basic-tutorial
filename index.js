@@ -13,6 +13,12 @@ var clienList = [
 
 var ObregonClients = _.where(clienList, {city: 'Obregon'});
 console.log(ObregonClients);
+
+ObregonClients = _(ObregonClients).sortBy(function(client){
+	return client.age;
+});
+
+console.log(ObregonClients);
 /*
 [ {name:'Juan' , city:'Obregon', age:27},
   {name:'Peter', city:'Obregon', age:31},

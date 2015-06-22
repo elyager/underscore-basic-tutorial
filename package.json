@@ -1,0 +1,16 @@
+{
+  "name": "underscore-js",
+  "version": "1.0.0",
+  "description": "Underscore tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "underscore",
+    "javascript",
+    "tutorial"
+  ],
+  "author": "@elyager",
+  "license": "ISC"
+}

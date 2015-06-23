@@ -1,9 +1,7 @@
 var _ = require('underscore');
-var numbers = []
+var numbers = [1,5,4,4,5,2,2,1,3,2,1,4,3,2,1,4,3,10,8,12]
 
-numbers[0] = _.range(10);
-numbers[1] = _.range(0, 10);
-numbers[2] = _.range(1, 11);
-numbers[3] = _.range(1, 11, 2);
+var uniquesValues = _.unique(numbers)
 
 console.log(numbers);
+console.log(uniquesValues);

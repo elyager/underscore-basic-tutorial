@@ -1,7 +1,11 @@
 var _ = require('underscore');
-var numbers = [1,5,4,4,5,2,2,1,3,2,1,4,3,2,1,4,3,10,8,12]
+var array1 = [1,2,3,4,5,6,7], 
+	array2 = [5,2,10], 
+	array3 = [6,13,21];
 
-var uniquesValues = _.unique(numbers)
+var difference = _.difference(array1, array2, array3);
 
-console.log(numbers);
-console.log(uniquesValues);
+console.log(array1);
+console.log(array2);
+console.log(array3);
+console.log(difference + '<-- difference');

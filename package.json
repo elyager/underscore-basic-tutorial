@@ -12,5 +12,8 @@
     "tutorial"
   ],
   "author": "@elyager",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
 }
